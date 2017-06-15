@@ -1,1 +1,2 @@
-# cordova-voiceRecognize
+# cordova-plugin-voicerecognize
+

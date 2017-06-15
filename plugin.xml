@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-voicerecognize"
+    version="0.0.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <name>VoiceRecognize</name>
+    <js-module name="VoiceRecognize" src="www/VoiceRecognize.js">
+        <clobbers target="cordova.plugins.VoiceRecognize" />
+    </js-module>
+    
+    
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="VoiceRecognize">
+                <param name="ios-package" value="VoiceRecognize" />
+            </feature>
+        </config-file>
+        
+        <header-file src="src/ios/VoiceRecognize.h" />
+        <source-file src="src/ios/VoiceRecognize.m" />
+        
+    </platform>
+</plugin>

@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-voicerecognize",
+  "version": "0.0.1",
+  "description": "Cordova / Phonegap plugin for voice recognize",
+  "author": {
+    "name": "gaoqh"
+  },
+  "cordova": {
+    "id": "cordova-plugin-voicerecognize",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaoqh/cordova-voiceRecognize.git"
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/gaoqh/cordova-voiceRecognize.git#readme"
+  
+}
