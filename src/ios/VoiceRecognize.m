@@ -6,12 +6,12 @@
   // Member variables go here.
 }
 
-- (void)coolMethod:(CDVInvokedUrlCommand*)command;
+- (void)recog:(CDVInvokedUrlCommand*)command;
 @end
 
 @implementation VoiceRecognize
 
-- (void)coolMethod:(CDVInvokedUrlCommand*)command
+- (void)recog:(CDVInvokedUrlCommand*)command
 {
     CDVPluginResult* pluginResult = nil;
     NSString* echo = [command.arguments objectAtIndex:0];
