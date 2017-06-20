@@ -1,17 +1,19 @@
 /********* VoiceRecognize.m Cordova Plugin Implementation *******/
 
-#import <VoiceRecognize.h>
-
-@interface VoiceRecognize : CDVPlugin {
-  // Member variables go here.
+#import "VoiceRecognize.h"
+@interface VoiceRecognize () {
+    
 }
 
-- (void)recog:(CDVInvokedUrlCommand*)command;
+- (void)recognizeVoiceModel:(CDVInvokedUrlCommand*)command;
+- (void)trainVoiceModel:(CDVInvokedUrlCommand*)command;
+- (void)deleteVoiceModel:(CDVInvokedUrlCommand*)command;
+
 @end
 
 @implementation VoiceRecognize
 
-- (void)recog:(CDVInvokedUrlCommand*)command
+- (void)recognizeVoiceModel:(CDVInvokedUrlCommand*)command
 {
     CDVPluginResult* pluginResult = nil;
     NSString* echo = [command.arguments objectAtIndex:0];
@@ -24,5 +26,16 @@
 
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
+
+- (void)trainVoiceModel:(CDVInvokedUrlCommand*)command
+{
+    
+}
+
+- (void)deleteVoiceModel:(CDVInvokedUrlCommand*)command
+{
+    
+}
+
 
 @end

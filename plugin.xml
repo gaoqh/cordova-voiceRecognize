@@ -6,7 +6,7 @@
     
     <name>VoiceRecognize</name>
     <js-module name="VoiceRecognize" src="www/VoiceRecognize.js">
-        <clobbers target="cordova.plugins.VoiceRecognize" />
+        <clobbers target="VoiceRecognize" />
     </js-module>
     
     

@@ -1,20 +1,44 @@
 {
-  "name": "cordova-plugin-voicerecognize",
-  "version": "0.0.1",
-  "description": "Cordova / Phonegap plugin for voice recognize",
+  "_from": "cordova-plugin-voicerecognize",
+  "_id": "cordova-plugin-voicerecognize@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-9iwQAWVDnkJgmfddpxgMAZLqwmM=",
+  "_location": "/cordova-plugin-voicerecognize",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-voicerecognize",
+    "name": "cordova-plugin-voicerecognize",
+    "escapedName": "cordova-plugin-voicerecognize",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/cordova-plugin-voicerecognize/download/cordova-plugin-voicerecognize-0.0.1.tgz",
+  "_shasum": "f62c100165439e426099f75da7180c0192eac263",
+  "_spec": "cordova-plugin-voicerecognize",
+  "_where": "/Users/gaoqinghua/NpolisCheck/node_modules",
   "author": {
     "name": "gaoqh"
   },
+  "bugs": {
+    "url": "https://github.com/gaoqh/cordova-voiceRecognize/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-voicerecognize",
     "platforms": [
       "ios"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gaoqh/cordova-voiceRecognize.git"
-  },
+  "deprecated": false,
+  "description": "Cordova / Phonegap plugin for voice recognize",
+  "homepage": "https://github.com/gaoqh/cordova-voiceRecognize.git#readme",
   "keywords": [
     "cordova",
     "device",
@@ -22,7 +46,10 @@
     "cordova-ios"
   ],
   "license": "ISC",
-  "readme": "ERROR: No README data found!",
-  "homepage": "https://github.com/gaoqh/cordova-voiceRecognize.git#readme"
-  
+  "name": "cordova-plugin-voicerecognize",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaoqh/cordova-voiceRecognize.git"
+  },
+  "version": "0.0.1"
 }
