@@ -1,28 +1,4 @@
 {
-  "_from": "cordova-plugin-voicerecognize",
-  "_id": "cordova-plugin-voicerecognize@0.0.1",
-  "_inBundle": false,
-  "_integrity": "sha1-9iwQAWVDnkJgmfddpxgMAZLqwmM=",
-  "_location": "/cordova-plugin-voicerecognize",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-voicerecognize",
-    "name": "cordova-plugin-voicerecognize",
-    "escapedName": "cordova-plugin-voicerecognize",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "http://registry.npm.taobao.org/cordova-plugin-voicerecognize/download/cordova-plugin-voicerecognize-0.0.1.tgz",
-  "_shasum": "f62c100165439e426099f75da7180c0192eac263",
-  "_spec": "cordova-plugin-voicerecognize",
-  "_where": "/Users/gaoqinghua/NpolisCheck/node_modules",
   "author": {
     "name": "gaoqh"
   },
@@ -51,5 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/gaoqh/cordova-voiceRecognize.git"
   },
-  "version": "0.0.1"
+  "version": "0.1.0"
 }

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="cordova-plugin-voicerecognize"
-    version="0.0.1"
+    version="0.1.0"
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     
@@ -19,6 +19,9 @@
         
         <header-file src="src/ios/VoiceRecognize.h" />
         <source-file src="src/ios/VoiceRecognize.m" />
-        
+        <header-file src="src/ios/Reachability.h" />
+        <source-file src="src/ios/Reachability.m" />
+        <framework src="src/ios/iflyMSC.framework"  custom="true" embed="true"/>
+
     </platform>
 </plugin>
